@@ -1,0 +1,679 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;scroll-behavior: smooth;}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header .first{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header .first .logo{
+    font-size: 25px;   
+}
+header .first .LO{
+    font-size: 20px;
+    border-bottom: 1px solid green;
+}
+header .first .inp input{
+    padding: 10px;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(186, 185, 185);
+    color: black;
+    font-weight: bold;
+}
+header .first .inp i{
+    position: absolute;
+    left: 56%;
+    top: 30px;
+    color: gray;
+}
+header .liste ul{
+    color: rgb(244, 237, 237);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    list-style: none;
+}
+header .liste ul li{
+    cursor: pointer;
+}
+.nav-active{
+    text-decoration:underline;
+    text-underline-offset: 1em;
+    cursor: pointer;
+}
+.s1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/black-wall.jpg); 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s1 .shoes{
+    background-image: url(img/green-circle.png); 
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s1 .shoes img{
+    width: 700px;
+    position: relative;
+    left: 20px;
+    animation:image-animation 1s 1 linear forwards;
+    
+}
+.s1 .price{
+    position: relative;
+    bottom: 180px;
+    left: 70px;
+    border: 1px solid rgb(73, 73, 73);
+    color: green;
+}
+.s1 .inf{
+    position: relative;
+    bottom: 120px;
+    right: 180px;
+    font-weight: bolder;
+}
+.s1 .buy button{
+    background-color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    position: relative;
+    right: 350px;
+    top: 40px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.s1 .buy button a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.s1 .buy button:hover{
+    a{
+        color: green;
+    }
+    background-color: white;
+}
+@keyframes image-animation {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+@keyframes image-animation1 {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+@keyframes image-animation2 {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+@keyframes image-animation3 {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+@keyframes image-animation4 {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+@keyframes image-animation5 {
+    0%{
+        left: -50px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+.s2 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+}
+.s2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.s2 h3,p{
+    text-align: center;
+}
+.s2 p{
+    position: relative;
+    left: 80px;
+    width: 50%
+}
+.s2 img{
+    width: 100px;
+    margin-left: 100px;
+}
+.s2 .features1 img{
+    position: relative;
+    right: 10px;
+}
+.s2 .features1 p{
+    position: relative;
+    left: 70px;
+}
+.s2 .features2 img{
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+.s3{
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+    clip-path:polygon(0% 16%, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+}
+.s3 .shoes img{
+    position: relative;
+    top:70px;
+    width: 150%;
+}
+.s3 .info{
+    position: relative;
+    top: 120px;
+    margin-left: 400px;
+}
+.s3 .info h2{
+    font-size: 65px;
+    font-weight: bold;
+}
+.s3 .info .price{
+    position: relative;
+    right: 45%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.s3 .info .shoes-info{
+    font-size: 20px;
+    text-align: justify;
+    width: 60%;
+    color: rgb(93, 90, 90);
+}
+.s3 .info .shoes-color{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 10px;
+}
+.s3 .info .shoes-color .gray{
+    width: 30px;
+    height: 30px;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.s3 .info .shoes-color .black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.s3 .info .size{
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+}
+.s3 .info .size div{
+    border: 1px solid;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.s3 .info .size .S-active{
+    background-color: black;
+    color: white;
+}
+.s3 .info .buy{
+    margin-top: 10px;
+    
+    position: relative;
+   
+}
+.s3 .info .buy button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.s3 .info .buy button:hover{
+    background-color: white;
+    color: green;
+}
+.s4{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.s4 p{
+    font-weight: bold;
+    font-size: 30px;
+    width: 80%;
+    text-align: justify;
+}
+.s4 div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s4 .example1 img{
+    width: 350px;
+    height: 500px;
+    
+}
+.s4 .example2 img{
+    height: 550px;
+    width: 400px;
+    
+}
+.s4 .example2{
+    position: relative;
+    left: 60px;
+}
+.s4 .example2 .p1{
+    display: none;
+}
+.s4 .example3 img{
+    width: 300px;   
+}
+.s5{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.s5 img{
+    width: 500px;
+    height: 100%;
+}
+.s5 .secondly{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.s5 .secondly h1{
+    font-size: 45px;
+}
+.s5 .secondly h2{
+    font-size: 40px;
+}
+.s5 .secondly h3{
+    font-size: 20px;
+}
+.s5 .secondly button{
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.s5 .secondly button:hover{
+    background-color: black;
+    color: white;
+}
+.s6{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.s6 div{
+    display: flex;
+    flex-direction: column;
+}
+.s6 .about4{
+    position: relative;
+    right:50px ;
+    gap: 15px;
+}
+.s6 .about4 .social{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 10px;
+}
+.s6 .about4 .social a i{
+    color: black;
+    cursor: pointer;
+}
+.s6 .about4 .join{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.s6 .about4 .join input{
+    padding: 10px;
+    border: none;
+    background-color: rgb(242, 241, 241);
+}
+.s6 .about4 .join button{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.all-buy{
+    display: flex;
+    justify-content: center;
+}
+.buy-info{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    padding: 30px;
+    gap: 4px;
+    position: absolute;
+    background-color: white;
+    top: 191%;
+    overflow: hidden;
+    display: none;
+    box-shadow: white -1px 3px 8px 5px inset, rgb(11, 50, 94) 2px 5px 16px 0px, rgba(0, 0, 0, 0.44) 10px 16px 33px 13px;
+}
+.buy-info .buy-methode img{
+    width: 50px;
+}
+.buy-info input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 10px;
+}
+.buy-info .birthday input{
+    width: 30%;
+}
+.buy-info h3,h2{
+    padding: 10px;
+}
+.buy-info #X{
+    position: relative;
+    left: 100%;
+    cursor: pointer;
+}
+.buy-info button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: #8a56f9;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+
+    header{
+        padding: 5px;
+    }
+    header .first .logo{
+        font-size: 20px;   
+    }
+    header .first .LO{
+        font-size: 17px;
+    }
+    header .first .inp input{
+        width: 80%;
+    }
+    header .liste ul{
+        flex-wrap: wrap;
+    }
+
+    .s1{
+        clip-path: none;
+    }
+
+    .s1 .shoes img{
+        width: 300px;
+        position: relative;
+        left: 20px;
+    }
+    .s1 .price{
+        display: none;
+    }
+    .s1 .inf{
+        position: relative;
+        left: -50px;
+        top: 10px;
+        text-wrap: nowrap;
+        font-size: 16px;
+    }
+    .s1 .buy button{
+        display: none;
+    }
+    .s1 .buy button a{
+        display: none;
+    }
+    
+    .s2 {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        
+    }
+    .s2 div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .s2 h3,p{
+        display:block;
+        text-align: center;
+    }
+
+
+    .s3{
+        margin-top: 10px;
+        height: 115vh;
+        clip-path:none;
+        flex-direction: column;
+    }
+    .s3 .shoes img{
+        left: 20%;
+        top:20px;
+        width: 75%;
+    }
+    .s3 .info{
+        top: 0px;
+        margin-left: 0px;
+    }
+    br{
+        display: none;
+    }
+    .s3 .info h2{
+        font-size: 40px;
+    }
+    .s3 .info .price{
+        left: -40%;
+        font-size: 20px;
+    }
+    .s3 .info .shoes-info{
+        width: 100%;
+        padding: 10px;
+    }
+    .s3 .info .shoes-color{
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+    .s3 .info .size{
+        margin-left: 10px;
+    }
+    .s3 .info .size div{
+        padding: 5px;
+        width: 50px;
+    }
+    .s3 .info .buy button{
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+
+    .s4{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .s4 div{
+        align-items: center;
+        gap: 20px;
+    }
+    .s4 .example1 img{
+        width: 300px;
+        height: 500px;
+    }
+    .s4 .example2 img{
+        width: 300px;
+        height: 500px;
+        
+    }
+    .s4 .example3 img{
+        width: 300px;  
+        height: 500px;
+    }
+    .s4 .example2{
+        position: relative;
+        left: 0px;
+    }
+    .s4 .example2 .p1{
+        display: block;
+    }
+    .s4 .example2 .p2{
+        display: none;
+    }
+    
+
+    .s5{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .s5 img{
+        width: 500px;
+        height: 500px;
+    }
+    .s5 .secondly{
+        padding: 10px;
+    }
+    
+    .s6  .about1{
+        display: none;
+    }
+    .s6  .about2{
+        display: none;
+    }
+    .s6  .about3{
+        display: none;
+    }
+    .s6  .about4{
+        position: relative;
+        left: 25%;
+    }
+
+    .buy-info{
+        width:70%;
+        top: 153%;
+    }
+    .buy-info button{
+        width: 40%;
+    }
+}
+@media (max-height:600px) {
+    .s3 .shoes img{
+        left: 20%;
+        top:20px;
+        width: 50%;
+    }
+    .s3 .info{
+        top: -5px;
+    }
+    .s3 .info .shoes-info{
+        font-size: 16px;
+    }
+    .s3 .info .buy button{
+        padding: 5px;
+        margin-top: 2px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .s5{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .s5 img{
+        width: 400px;
+        height: 400px;
+    }
+    .s5 .secondly{
+        padding: 10px;
+    }
+
+    .s6  .about4{
+        position: relative;
+        left: 16%;
+    }
+}
