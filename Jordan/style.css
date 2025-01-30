@@ -676,4 +676,8 @@ header .liste ul li{
         position: relative;
         left: 16%;
     }
+    .buy-info{
+        width:80%;
+        top: 230%;
+    }
 }
