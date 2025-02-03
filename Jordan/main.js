@@ -42,6 +42,8 @@ air.onclick=function(){
     nav[3].classList.remove('nav-active');
     nav[4].classList.remove('nav-active');
     gray.style.backgroundColor="darkblue";
+    gray.style.backgroundColor="gray";
+    black.style.backgroundColor="black";
     gray.onclick=function(){
          BuyShoes.src="img/air2.png";
     }
