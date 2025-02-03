@@ -640,7 +640,7 @@ header .liste ul li{
         width: 40%;
     }
 }
-@media (max-height:600px) {
+@media (max-height:670px) {
     .s3 .shoes img{
         left: 20%;
         top:20px;
