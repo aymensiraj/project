@@ -475,6 +475,7 @@ header .liste ul li{
 
 
 
+
 @media (max-width:500px){
 
     header{
@@ -659,6 +660,7 @@ header .liste ul li{
         width: 40%;
     }
 }
+
 @media (max-height:670px) {
     .s3 .shoes img{
         left: 20%;
@@ -698,5 +700,22 @@ header .liste ul li{
     .buy-info{
         width:80%;
         top: 230%;
+    }
+}
+@media (min-width:350px) {
+    .s3{
+        height: 90vh;
+    } 
+}
+@media (min-width:380px) and (min-height:820px) {
+    .s3{
+        height: 100%;
+    }
+}
+@media (min-width:500px) and (min-height:900px) {
+    .s3 .shoes img{
+        left: 10%;
+        top:20px;
+        width: 75%;
     }
 }
